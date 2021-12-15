@@ -22,7 +22,7 @@ public class WebDriverSettings {
     public void close () {
         //лог в консоль, тест закончен
         System.out.println("test close");
-        //driver.quit();
+        driver.quit();
     }
 
 }
